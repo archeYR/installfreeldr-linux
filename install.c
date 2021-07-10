@@ -128,7 +128,7 @@ int main(int argc, char *argv[])
 {
 	if (argc < 3)
 	{
-		printf("syntax: install /dev/sdx\nwhere [x] is the letter of drive\n[fs_type]\nwhere fs_type is fat or fat32\n");
+		printf("syntax: installfreeldr /dev/[disk_device][partition_number] [fs_type] (fs_type can be fat or fat32)\n");
 		return -1;
 	}
 
