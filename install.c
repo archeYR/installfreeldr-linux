@@ -146,7 +146,7 @@ int main(int argc, char *argv[])
 
 	CloseVolume();
 
-	printf("You must now copy freeldr.sys & freeldr.ini to %s.\n", argv[1]);
+	printf("You must now copy freeldr.sys, rosload.exe and freeldr.ini to %s.\n", argv[1]);
 
 	return 0;
 }
